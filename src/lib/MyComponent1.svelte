@@ -4,3 +4,4 @@
 
 <div>{data.lang}</div>
 <div>{@html data.content}</div>
+  

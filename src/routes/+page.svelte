@@ -21,10 +21,10 @@
 		const container2 = document.createElement('div');
 		mount(MyComponent2, { target: container2 });
 
-		if (container1.innerText !== expected2) {
+		if (container2.innerText !== expected2) {
 			console.error('Component 2 failed', {
 				expected: expected2,
-				got: container1.innerText,
+				got: container2.innerText,
 				innerHTML: container2.innerHTML
 			});
 		}
